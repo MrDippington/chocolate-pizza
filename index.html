@@ -6,14 +6,15 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
-      <div>
+    <div>
+    <header class="container-flexbox1">
+      <div> 
 
-        <div>
+        <div id="logo">
           <img src="img/logo.png" alt="fork and knife logo" />
         </div>
         
-        <div>
+        <div id="logo2">
             <h2>Delicious</h2>
             <h5>THE BEST FOOD BLOG ON THE WEB</h5> 
         </div>
@@ -21,7 +22,7 @@
         
       </div>
 
-      <div>
+      <div id = "iconUl">
         <ul>
           <li><img src="img/fb-icon.png" alt="facebook icon"></li>
           <li><img src="img/twit-icon.png" alt="twitter icon"></li>
@@ -29,33 +30,30 @@
           <li><img src="img/insta-icon.png" alt="instagram icon"></li>
           <li><img src="img/flic-icon.png" alt="flicker icon"></li>
           <li><img src="img/pint-icon.png" alt="pinterest icon"></li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li><img src="img/rss-icon.png" alt="rss icon"></li>
+          <li id = "gap"><img src="img/rss-icon.png" alt="rss icon"></li>
           <li><img src="img/mail-icon.png" alt="mail icon"></li>
         </ul>
       </div>
 
-      <div class="line">
-        <!-- hr.img.png background image -->
-      </div>
+    
+  
     </header>
-
+    <div class="line">
+        <!-- hr.img.png background image -->
+      </div >
     <main>
-      <h1>Chocolate Pizza</h1>
- 
+      <div id = "flexBoxPrint">
       <div>
+        <h1>Chocolate Pizza</h1>
         <h4>POSTED ON 15 DEC 2013 / DESSERTS</h4> 
+      </div>
         
         <div>
-          <img src="img/print-icon.png" alt="print icon">
-          <h4>PRINT</h4>
+          <img class = "print" src="img/print-icon.png" alt="print icon">
+          <h4 class = "print">PRINT</h4>
         </div>
-        
       </div>
+      
 
       <div>
         <img src="img/choco-pizza.png" alt="chocolate pizza">
@@ -92,5 +90,6 @@
       <p>Delicious &copy 2013 &#8226 All Rights Reserved.</p>
       <p>Proudly published with Ghost.</p>
     </footer>
+  </div> 
   </body>
 </html>
