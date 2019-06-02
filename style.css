@@ -4,14 +4,7 @@
 /* Font for list-bg.png */
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 
-/* #container-flexbox1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
-* {
-  border: 1px solid red;
-}
+
 body{
   width:960px;
   margin: 30px auto;
@@ -63,19 +56,17 @@ h4 {
   margin-bottom: 20px;
 }
 #flexBoxPrint{
-  border: 1px solid red;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top:15px;
-
-}
-.print{
-  border: 1px solid red;
+  margin-top:7px;
+ 
+ }
+ .print{
+  vertical-align: top;
   display:inline-block;
-
-
-}
+  margin-bottom: 20px;
+ }
 
 #hero-img {
   width: 100%;
@@ -88,34 +79,42 @@ h4 {
   margin-top: 30px;
 }
 #flexBoxFooter{
-  border: 1px solid red;
-  background-color: orange;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-
+ 
 }
 .footer-div {
-  background-color: blue;
-  border: 1px solid red;
   display: inline-block;
+  margin-top: 0;
+  vertical-align: top;
 }
-.footer-div2 {
-  background-color: red;
-  display: inline-block;
-  margin-bottom: 0 0 20px 0;
-}
-
+ 
 button{
-  border: 1px solid red;
   background-color:rgb(140, 20, 20);
   color: white;
   height: 40px;
   width: 120px;
-  margin-top: 30px;
-  
+  vertical-align: top;
 }
 h3{
   font-weight: bold;
+}
+#allRights{
+  text-align: center;
+  color: grey;
 
+}
+#allRights div img{
+  margin: 30px 0px;
+}
+form{
+  display:inline-block;
+  margin:20px 100px 20px 50px;
+}
+#checkboxForm{
+  margin-top: 30px;
+  background-image: url(../chocolate-pizza/img/list-bg.png);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
 }
